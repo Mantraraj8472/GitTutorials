@@ -34,4 +34,9 @@ It stands for Desktop Services Store and it holds meta information about your fo
 If you will do *.extension then it will ignore all files with that extension.
 Git will ignore the blank folder
 
+git diff --> this will compare staging area with working directory
+
+git diff --staged --> this will compare our last commit with current staging area 
+
+
 

@@ -38,5 +38,8 @@ git diff --> this will compare staging area with working directory
 
 git diff --staged --> this will compare our last commit with current staging area 
 
+git commit -a -m "message goes here" -->
+This will stage and commit directly all tracked files only
+
 
 

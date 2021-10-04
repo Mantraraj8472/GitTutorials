@@ -30,3 +30,6 @@ Clone a repository into a new directory
 It stands for Desktop Services Store and it holds meta information about your folder’s thumbnails, settings, etc.
 .DS_Store files are created any time you navigate to a file or folder from the Finder on a Mac.
 
+.gitignore file and when you add the file names into this file and when you will make changes inside the added files then git will ignore that file.
+
+

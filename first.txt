@@ -31,5 +31,7 @@ It stands for Desktop Services Store and it holds meta information about your fo
 .DS_Store files are created any time you navigate to a file or folder from the Finder on a Mac.
 
 .gitignore file and when you add the file names into this file and when you will make changes inside the added files then git will ignore that file.
+If you will do *.extension then it will ignore all files with that extension.
+Git will ignore the blank folder
 
 

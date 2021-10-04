@@ -1,0 +1,32 @@
+This is version 1 of my project.
+I want this to go into commit 2.
+
+
+git init --> for initialising as .git
+
+git status --> for status checking of modified files and files whcih are in staging area.
+The git status command will show you the different states of files in your working directory and staging area. Which files are modified and unstaged and which are staged but not yet committed. In it’s normal form, it also will show you some basic hints on how to move files between these stages.
+
+git add <file_name>  or  git add --a  
+The git add command adds content from the working directory into the staging area (or “index”) for the next commit.
+
+git commit -m "your message goes here"
+When the git commit command is run, by default it only looks at this staging area, so git add is used to craft what exactly you would like your next commit snapshot to look like.
+The git commit command takes all the file contents that have been staged with git add and records a new permanant snapshot in the database and then moves the branch pointer on the current branch up to it.
+
+git log --> details of all commit
+The git log command is used to show the reachable recorded history of a project from the most recent commit snapshot backwards. By default it will only show the history of the branch you’re currently on, but can be given different or even multiple heads or branches from which to traverse. It is also often used to show differences between two or more branches at the commit level.
+
+git rm --> for removing files
+The git rm command is used to remove files from the staging area and working directory for Git. It is similar to git add in that it stages a removal of a file for the next commit.
+
+git rm -rf --> will remove the contents of the particular folder
+after doing fit rm -rf .git then if you will check for git status then again that fatal error because we removed the whole by .git means now that will become simple repository not git repository.
+
+git clone url (name whatever you want to give it --> also leave it blank)
+Clone a repository into a new directory
+
+.DS_store --> First off — what is this .DS_Store file?
+It stands for Desktop Services Store and it holds meta information about your folder’s thumbnails, settings, etc.
+.DS_Store files are created any time you navigate to a file or folder from the Finder on a Mac.
+

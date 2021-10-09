@@ -42,5 +42,19 @@ git diff --staged --> this will compare our last commit with current staging are
 git commit -a -m "message goes here" -->
 This will stage and commit directly all tracked files only
 
+when we rename the file in finder it will be considered as deleted old file and the renamed file is now untracked
+and when you add that file then it will show that you renamed the file
+
+git rm <file_name>
+this will remove the file and changes added to stage
+But if we manually delete the file then we have to manually add to stage 
+
+git mv <old_file_name> <new_file_name>
+it will rename the file and add to stage
+But if we do it manually then we have to stage that
+
+git rm --cached <file_name>
+It will start untracking that file
+Now when you add already tracked file in .gitignore and you do some changes in that file then also that change will be reflected so we have to run the above mentioned command and add to .gitignore too.
 
 

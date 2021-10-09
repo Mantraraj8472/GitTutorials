@@ -78,7 +78,6 @@ git rm --cached <file_name>
 It will start untracking that file
 Now when you add already tracked file in .gitignore and you do some changes in that file then also that change will be reflected so we have to run the above mentioned command and add to .gitignore too.
 
-git restore --staged <file_name>
-This will unstage the file
+
 
 

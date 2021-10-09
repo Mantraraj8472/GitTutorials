@@ -16,6 +16,27 @@ The git commit command takes all the file contents that have been staged with gi
 
 git log --> details of all commit
 The git log command is used to show the reachable recorded history of a project from the most recent commit snapshot backwards. By default it will only show the history of the branch you’re currently on, but can be given different or even multiple heads or branches from which to traverse. It is also often used to show differences between two or more branches at the commit level.
+git lop -p
+This will show what changes has been made in file that is what is added and what is removed with commit.
+git log -p -<number>
+This will show <number> commits along with diff.
+git log --stat
+A short summary of commits.
+git log --pretty=oneline
+This will show every commit in one line
+git log --pretty=short
+This will show every commit in short
+git log --pretty=full
+This will show every author, committer and message
+git log --since=2.days (n.weeks or n.months or n.years)
+This will show commit of last 2 days
+git log --pretty=format:"%h -- %an"
+This will show commits in the given format 
+So formats in the documentation page
+%h --> abbreviated commit hash
+%an --> author name
+git commit --amend
+This is will allow us to change in last commit that we can change the message and all in editor.
 
 git rm --> for removing files
 The git rm command is used to remove files from the staging area and working directory for Git. It is similar to git add in that it stages a removal of a file for the next commit.
@@ -56,5 +77,8 @@ But if we do it manually then we have to stage that
 git rm --cached <file_name>
 It will start untracking that file
 Now when you add already tracked file in .gitignore and you do some changes in that file then also that change will be reflected so we have to run the above mentioned command and add to .gitignore too.
+
+git restore --staged <file_name>
+This will unstage the file
 
 

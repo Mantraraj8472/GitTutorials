@@ -114,4 +114,8 @@ upon fetching (or pulling), you download the files And then if you wanted to do 
 git checkout -b myLocalFeature22 TechLeadRepo/feature22
 Had you cloned his repo then you would have to go into that local repository's directory and simply just checkout to your desired branch
 
+git checkout -b <branch_name>
+This will create a new branch and direct you to that newly created brach
 
+git branch
+This will list out all the brances and the one which has * in it's prefix is the branch in which we are currently in.

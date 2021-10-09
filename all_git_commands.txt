@@ -119,3 +119,6 @@ This will create a new branch and direct you to that newly created brach
 
 git branch
 This will list out all the brances and the one which has * in it's prefix is the branch in which we are currently in.
+
+git checkout <branch_name>
+This will switch to the specified branch

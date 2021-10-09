@@ -86,4 +86,8 @@ This will unmodify the last modification but not if it is staged or committed
 git checkout -f
 This will unmodify the last modification of all files but not if it is staged or committed
 
+git remote add origin https://github.com/Mantraraj8472/GitTutorials.git
+Now this remote repository is named as origin and added
+Also learn about SSH keys
+
 

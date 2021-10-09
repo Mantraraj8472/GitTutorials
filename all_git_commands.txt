@@ -94,4 +94,24 @@ alias is used to write commands easier
 git config --global alias.st status
 means st is short form of status
 
+Difference between git clone and git remote:
+git clone:
+
+Will physically download the files into your computer. It will take space from your computer. If the repo is 200Mb, then it will download that all and place it in the directory you cloned.
+
+git remote add:
+
+Won't take space! It's more like a pointer! It doesn't increase your disk consumption. It just gets a snapshot of what branches are available and their git commit history I believe. It doesn't contain the actual file/folders of your project.
+
+If you do:
+
+git remote add TechLeadRepo  git://github.com/user/test.git
+then you haven't added anything to your computer. After you've added it in your remote branches then you're able to get a list of all branches on that remote by doing:
+
+git fetch --all
+upon fetching (or pulling), you download the files And then if you wanted to do get your colleague's feature22 branch into your local, you'd just do
+
+git checkout -b myLocalFeature22 TechLeadRepo/feature22
+Had you cloned his repo then you would have to go into that local repository's directory and simply just checkout to your desired branch
+
 

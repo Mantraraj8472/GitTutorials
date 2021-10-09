@@ -123,4 +123,4 @@ This will list out all the brances and the one which has * in it's prefix is the
 git checkout <branch_name>
 This will switch to the specified branch
 
-Highly recommend that do commit and be in clean state in the branches.
+Highly recommend that before merging do commit and be in clean state in the branches.

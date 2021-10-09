@@ -90,6 +90,7 @@ git remote add origin https://github.com/Mantraraj8472/GitTutorials.git
 Now this remote repository is named as origin and added
 Also learn about SSH keys
 
+alias is used to write commands easier
 git config --global alias.st status
 means st is short form of status
 

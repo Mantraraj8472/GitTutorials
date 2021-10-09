@@ -81,4 +81,9 @@ Now when you add already tracked file in .gitignore and you do some changes in t
 git restore --staged <file_name>
 This will unstage the file
 
+git checkout -- <filename> 
+This will unmodify the last modification but not if it is staged or committed
+git checkout -f
+This will unmodify the last modification of all files but not if it is staged or committed
+
 

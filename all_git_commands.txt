@@ -145,8 +145,4 @@ delete the brach and gives error if not merged
 git branch -D <branch_name>
 delete the brach without giving any error
 
-<<<<<<< HEAD
-This is changed in main after changing testing branch
-=======
-This is changed in testing branch
->>>>>>> testing
+This is changed in main after changing testing branch.

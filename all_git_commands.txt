@@ -124,3 +124,23 @@ git checkout <branch_name>
 This will switch to the specified branch
 
 Highly recommend that before merging do commit and be in clean state in the branches.
+
+Now what are merge conflicts?
+A merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits.
+It occurs when you changes the same piece of instruction and other also changes the same and try to merge with him then git doesn't resolve it automatically.
+we have to resolve it (example we can do git add <file_name> so it will take as that you have resolved).
+Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it. 
+In these cases, Git cannot automatically determine what is correct. ... Git will mark the file as being conflicted and halt the merging process.
+
+Now before when you create branch then whole folder copies but currently only changes will stored and rest are pointer to the previous one which saves the space
+
+git branch -v
+list the last commit of all branches having hash and message
+git branch --merged 
+Tell about branches that are already merged
+git branch --no-merged
+Tell about branches that are remaining for merged
+git branch -d <branch_name>
+delete the brach and gives error if not merged
+git branch -D <branch_name>
+delete the brach without giving any error

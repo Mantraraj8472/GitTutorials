@@ -152,5 +152,3 @@ This will bring back the deleted code which was deleted by git stash.
 
 git cherry-pick <id_of_the_commit>
 By doing this we can add that commit to the current working head or branch.
-
-This is changed in main branch.

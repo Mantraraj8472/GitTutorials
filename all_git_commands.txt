@@ -144,5 +144,3 @@ git branch -d <branch_name>
 delete the brach and gives error if not merged.
 git branch -D <branch_name>
 delete the branch without getting any error even if it is not merged.
-
-

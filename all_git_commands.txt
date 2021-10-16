@@ -149,3 +149,6 @@ git stash
 This will create a stack like data structure and delete the changes
 git stash pop 
 This will bring back the deleted code which was deleted by git stash.
+
+git cherry-pick <id_of_the_commit>
+By doing this we can add that commit to the current working head or branch.

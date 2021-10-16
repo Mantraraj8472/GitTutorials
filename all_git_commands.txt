@@ -145,3 +145,4 @@ delete the brach and gives error if not merged
 git branch -D <branch_name>
 delete the brach without giving any error
 
+This is in main branch.
